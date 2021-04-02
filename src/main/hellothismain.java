@@ -28,7 +28,8 @@ public class hellothismain {
         System.out.println("|                       PRESS 2 TO SIGNUP                         |");
         System.out.println("|                       PRESS 3 TO EXIT                           |");
         System.out.println(" -----------------------------------------------------------------");
-        sw = sc.next().charAt(0);//you can enter enything there of how many characters you want
+        sw = sc.next().charAt(0);
+        //you can enter enything there of how many characters you want
         //but still it will go for the the first character only
         //and if it's anything other than 1 or 2 it will exit
         switch (sw) {
